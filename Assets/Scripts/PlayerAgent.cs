@@ -50,6 +50,10 @@ public class PlayerAgent : MonoBehaviour
     {        
         if(needTask) // if has no task yet
         {
+            // if night time to go to sleep
+            // if not night can go out shoping or do chores at home
+            // maybe go for an explore
+
             switch (whatsCharacterDoing)
             {
                 case thingsToDo.home:
