@@ -32,7 +32,7 @@ public class PlayerAgent : MonoBehaviour
     {
         allGoals = GameObject.FindGameObjectWithTag("AllGoals");
 
-        aiLocations.aiHouse = allGoals.transform.Find(this.name + " house");
+        aiLocations.aiHouse = allGoals.transform.Find(this.name + " Home");
 
         aiLocations.shops = allGoals.transform.Find("shops");
 
